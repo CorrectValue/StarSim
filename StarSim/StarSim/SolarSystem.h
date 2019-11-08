@@ -6,9 +6,14 @@
 #include "Planet.h"
 #include "Star.h"
 #include <vector>
+using namespace std;
 
 class SolarSystem
 {
 	Star star;
-	std::vector<Planet> planets;
+	int numOfPlanets;
+	vector<Planet> planets;
+	string name;
+
+	SolarSystem();
 };

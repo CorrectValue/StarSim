@@ -89,6 +89,8 @@
     <ClInclude Include="Town.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Civilization.cpp" />
+    <ClCompile Include="SolarSystem.cpp" />
     <ClCompile Include="StarSim.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
