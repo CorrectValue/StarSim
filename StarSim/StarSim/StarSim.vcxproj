@@ -90,12 +90,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Civilization.cpp" />
+    <ClCompile Include="Planet.cpp" />
     <ClCompile Include="SolarSystem.cpp" />
     <ClCompile Include="StarSim.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Town.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

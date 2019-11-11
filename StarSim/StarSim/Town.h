@@ -8,4 +8,7 @@
 class Town
 {
 	std::string name;
+	int population; //население
+
+	Town();
 };

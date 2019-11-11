@@ -6,10 +6,16 @@
 
 //test
 
-class Planet
+#include "Celestial.h"
+
+class Planet : public Celestial
 {
 	bool viable; //свойство, определяющее, возможна ли жизнь на планете
 
+	float aveTemperature;	//средняя температура по больнице
+	float gravity;			//гравитацию вычислить
+
 	Planet();
 	void checkViability(); //метод, проверяющий, возможна ли жизнь на планете
+	void computeGravity();
 };
