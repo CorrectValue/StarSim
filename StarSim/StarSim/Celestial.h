@@ -4,8 +4,13 @@
 // Имеет спрайт (на самом деле не имеет, но наследники имеют)
 // Абстрактен.
 
+#include <string>
+using namespace std;
+
 class Celestial
 {
+public:
 	float mass, radius; //масса и радиус. 
-	float 
+	float s;
+	string name;		//имя небесного тела
 };

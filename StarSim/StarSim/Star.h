@@ -5,8 +5,12 @@
 // Описывается временем жизни, температурой.
 
 #include "Celestial.h"
+#include <vector>
 
 class Star : public Celestial //public здесь - модификатор доступа. Читай
 {
+	static vector<string> usedStarNames;
 
+	Star();
+	void generateName();
 };

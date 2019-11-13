@@ -92,6 +92,7 @@
     <ClCompile Include="Civilization.cpp" />
     <ClCompile Include="Planet.cpp" />
     <ClCompile Include="SolarSystem.cpp" />
+    <ClCompile Include="Star.cpp" />
     <ClCompile Include="StarSim.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
