@@ -1,3 +1,5 @@
+#ifndef Star_H
+#define Star_H
 //Звезда.
 // Наследует от Celestial ряд параметров.
 // Принадлежит солнечной системе.
@@ -9,8 +11,10 @@
 
 class Star : public Celestial //public здесь - модификатор доступа. Читай
 {
+public:
 	static vector<string> usedStarNames;
 
 	Star();
 	void generateName();
 };
+#endif

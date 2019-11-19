@@ -1,3 +1,5 @@
+#ifndef Civilization_H
+#define Civilization_H
 //÷ивилизаци€.
 // ќписываетс€ именем, расположением, отношени€ми с другими цивилизаци€ми.
 #include <string>
@@ -6,6 +8,7 @@ using namespace std;
 
 class Civilization
 {
+public:
 	//name
 	//characteristics
 	//alignment?
@@ -15,3 +18,4 @@ class Civilization
 
 	Civilization(); 
 };
+#endif

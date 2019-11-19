@@ -1,5 +1,6 @@
 #include "Star.h"
 
+vector<string> Star::usedStarNames;
 Star::Star()
 {
 	//определить имя звезды 
@@ -27,7 +28,7 @@ void Star::generateName()
 	if (std::find(usedStarNames.begin(), usedStarNames.end(), name) != usedStarNames.end())
 	{
 		//имя найдено, надо сделать более уникальным
-		name += badassStarSuffix[rand() % badassStarSuffix.size];
+		name += badassStarSuffix[rand() % badassStarSuffix.size()];
 	}
 	//добавить имя в общий список
 	usedStarNames.push_back(name);

@@ -1,3 +1,5 @@
+#ifndef SolarSystem_H
+#define SolarSystem_H
 //Солнечная система
 //Содержит в себе звезду(-ы) и набор планет
 // Звезда - отдельный класс
@@ -14,6 +16,8 @@ class SolarSystem
 	int numOfPlanets;
 	vector<Planet> planets;
 	string name;
+	vector<float> coordinates; //абсолютные координаты в звёздном пространстве
 
 	SolarSystem();
 };
+#endif
