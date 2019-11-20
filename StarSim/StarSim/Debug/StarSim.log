@@ -1,0 +1,16 @@
+﻿Build started 19.11.2019 23:11:19.
+     1>Project "C:\Users\Леха\Documents\Программирование\StarSim\StarSim\StarSim\StarSim.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Леха\Documents\Программирование\StarSim\StarSim\Debug\StarSim.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Леха\Documents\Программирование\SFML-2.4.2-windows-vc12-32-bit\SFML-2.4.2\lib" /LIBPATH:"C:\Users\Леха\Documents\Программирование\TGUI-0.7.6-vc12-32bit-for-SFML-2.4.2\TGUI-0.7\lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" "sfml-audio-d.lib" "tgui-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Леха\Documents\Программирование\StarSim\StarSim\Debug\StarSim.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Леха\Documents\Программирование\StarSim\StarSim\Debug\StarSim.lib" /MACHINE:X86 Debug\Civilization.obj
+         Debug\Planet.obj
+         Debug\SolarSystem.obj
+         Debug\Star.obj
+         Debug\StarSim.obj
+         Debug\stdafx.obj
+         Debug\Town.obj
+         StarSim.vcxproj -> C:\Users\Леха\Documents\Программирование\StarSim\StarSim\Debug\StarSim.exe
+     1>Done Building Project "C:\Users\Леха\Documents\Программирование\StarSim\StarSim\StarSim\StarSim.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.62

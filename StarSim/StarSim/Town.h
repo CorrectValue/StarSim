@@ -1,3 +1,5 @@
+#ifndef Town_H
+#define Town_H
 //Город/поселение.
 // Имеет имя
 // Населён представителями какой-то цивилизации. 
@@ -8,4 +10,8 @@
 class Town
 {
 	std::string name;
+	int population; //население
+
+	Town();
 };
+#endif
