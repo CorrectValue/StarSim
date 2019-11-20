@@ -1,5 +1,7 @@
 #include "Planet.h"
 
+vector<string> Planet::appearances;
+
 void Planet::computeGravity()
 {
 	//метод, вычисляющий гравитацию на планете, исходя из её особенностей
@@ -15,5 +17,19 @@ void Planet::checkViability()
 
 Planet::Planet()
 {
+
+}
+
+void Planet::prepareAppearances()
+{
+	//метод для подготовки списка внешних представлений планет
+	appearances = {
+		"planet0"
+	};
+}
+
+void Planet::generateName()
+{
+	//генератор имени для планеты
 
 }

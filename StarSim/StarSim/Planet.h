@@ -15,6 +15,7 @@ using namespace std;
 class Planet : public Celestial
 {
 public:
+	static vector<string> appearances; //общий список внешних представлений планет 
 	bool viable; //свойство, определяющее, возможна ли жизнь на планете
 
 	float aveTemperature;	//средняя температура по больнице
@@ -23,7 +24,10 @@ public:
 	vector<float> coordinates; //координаты относительно звезды в системе. координаты звезды - 0;0;0
 
 	Planet();
+	Planet(bool state); //пока не знаю, зачем я это написал, но пусть будет
 	void checkViability(); //метод, проверяющий, возможна ли жизнь на планете
 	void computeGravity();
+	void prepareAppearances();
+	void generateName();
 };
 #endif
