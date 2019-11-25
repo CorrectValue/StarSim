@@ -15,7 +15,8 @@ using namespace std;
 class Planet : public Celestial
 {
 public:
-	static vector<string> appearances; //общий список внешних представлений планет 
+	static vector<string> appearances;//общий список внешних представлений планет 
+	static vector<string> usedPlanetNames;
 	bool viable; //свойство, определяющее, возможна ли жизнь на планете
 
 	float aveTemperature;	//средняя температура по больнице
