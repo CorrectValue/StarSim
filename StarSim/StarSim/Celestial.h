@@ -5,15 +5,21 @@
 // Имеет спрайт (на самом деле не имеет, но наследники имеют)
 // Абстрактен.
 
+#include <SFML/Graphics.hpp>
 #include <string>
 using namespace std;
+using namespace sf;
 
 class Celestial
 {
 public:
 	float mass, radius; //масса и радиус. 
-	float s;
+
 	string name;		//имя небесного тела
+
+	Image image;//сфмл изображение
+	Texture texture;//сфмл текстура
+	Sprite sprite;//сфмл спрайт
 
 	virtual void update();
 };
