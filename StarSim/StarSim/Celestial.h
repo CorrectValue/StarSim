@@ -14,6 +14,7 @@ class Celestial
 {
 public:
 	float mass, radius; //масса и радиус. 
+	float G = 6.67408 * pow(10, -11);//гравитационная постоянная
 
 	string name;		//имя небесного тела
 

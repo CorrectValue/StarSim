@@ -7,6 +7,8 @@ void Planet::computeGravity()
 {
 	//метод, вычисл€ющий гравитацию на планете, исход€ из еЄ особенностей
 	//‘ќ–ћ”Ћј?
+	
+
 }
 
 void Planet::checkViability()
@@ -18,7 +20,8 @@ void Planet::checkViability()
 
 Planet::Planet()
 {
-
+	//определить им€ планеты
+	generateName();
 }
 
 void Planet::prepareAppearances()

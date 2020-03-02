@@ -85,6 +85,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Body.h" />
     <ClInclude Include="Celestial.h" />
     <ClInclude Include="Civilization.h" />
     <ClInclude Include="Planet.h" />
@@ -95,6 +96,7 @@
     <ClInclude Include="Town.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Body.cpp" />
     <ClCompile Include="Civilization.cpp" />
     <ClCompile Include="Planet.cpp" />
     <ClCompile Include="SolarSystem.cpp" />
